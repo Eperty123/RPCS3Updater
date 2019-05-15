@@ -1,5 +1,5 @@
 # What is this?
-RPCS3Updater is a neat little launcher that automatically checks for new builds of RPCS3 and updates your current. (If desired.)
+RPCS3Updater is a neat little launcher that automatically checks for new builds of RPCS3 and updates your current. (If desired.) It uses Github's API to fetch the builds catalogue.
 
 # Pre-requisits
 * RPCS3Updater requires .NET 4.7.2 installed on your computer to work.

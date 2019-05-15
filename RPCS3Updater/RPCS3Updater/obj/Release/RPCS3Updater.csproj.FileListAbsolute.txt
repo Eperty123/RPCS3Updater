@@ -1,0 +1,15 @@
+D:\Medier\Dokumenter\Visual Studio 2019\Projects\RPCS3Updater\RPCS3Updater\bin\Release\x64\7z.dll
+D:\Medier\Dokumenter\Visual Studio 2019\Projects\RPCS3Updater\RPCS3Updater\bin\Release\x86\7z.dll
+D:\Medier\Dokumenter\Visual Studio 2019\Projects\RPCS3Updater\RPCS3Updater\bin\Release\RPCS3Updater.exe.config
+D:\Medier\Dokumenter\Visual Studio 2019\Projects\RPCS3Updater\RPCS3Updater\bin\Release\RPCS3Updater.exe
+D:\Medier\Dokumenter\Visual Studio 2019\Projects\RPCS3Updater\RPCS3Updater\bin\Release\RPCS3Updater.pdb
+D:\Medier\Dokumenter\Visual Studio 2019\Projects\RPCS3Updater\RPCS3Updater\bin\Release\Newtonsoft.Json.dll
+D:\Medier\Dokumenter\Visual Studio 2019\Projects\RPCS3Updater\RPCS3Updater\bin\Release\SevenZipExtractor.dll
+D:\Medier\Dokumenter\Visual Studio 2019\Projects\RPCS3Updater\RPCS3Updater\bin\Release\Newtonsoft.Json.xml
+D:\Medier\Dokumenter\Visual Studio 2019\Projects\RPCS3Updater\RPCS3Updater\obj\Release\RPCS3Updater.csprojAssemblyReference.cache
+D:\Medier\Dokumenter\Visual Studio 2019\Projects\RPCS3Updater\RPCS3Updater\obj\Release\RPCS3Updater.Properties.Resources.resources
+D:\Medier\Dokumenter\Visual Studio 2019\Projects\RPCS3Updater\RPCS3Updater\obj\Release\RPCS3Updater.csproj.GenerateResource.cache
+D:\Medier\Dokumenter\Visual Studio 2019\Projects\RPCS3Updater\RPCS3Updater\obj\Release\RPCS3Updater.csproj.CoreCompileInputs.cache
+D:\Medier\Dokumenter\Visual Studio 2019\Projects\RPCS3Updater\RPCS3Updater\obj\Release\RPCS3Updater.csproj.CopyComplete
+D:\Medier\Dokumenter\Visual Studio 2019\Projects\RPCS3Updater\RPCS3Updater\obj\Release\RPCS3Updater.exe
+D:\Medier\Dokumenter\Visual Studio 2019\Projects\RPCS3Updater\RPCS3Updater\obj\Release\RPCS3Updater.pdb

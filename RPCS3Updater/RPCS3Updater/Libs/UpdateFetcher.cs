@@ -145,7 +145,7 @@ namespace RPCS3Updater.Libs
                     Write("Download done. Extracting...");
 
                     ArchiveFile file = new ArchiveFile(update);
-                    file.Extract(thisDir);
+                    file.Extract(thisDir, true);
 
                     file.Dispose();
                     File.Delete(update);

@@ -11,6 +11,7 @@ using static RPCS3Updater.Libs.Logger;
 using static RPCS3Updater.Libs.Globals;
 using SevenZipExtractor;
 using System.Diagnostics;
+using System.Threading;
 
 namespace RPCS3Updater.Libs
 {
@@ -83,7 +84,7 @@ namespace RPCS3Updater.Libs
         }
         public static string GetVersionFromLog(string targetVersion)
         {
-            string logFile = Path.Combine(Directory.GetCurrentDirectory(), string.Format("{0}.log", Executeable.ToUpper()));
+            string logFile = Path.Combine(Directory.GetCurrentDirectory(), string.Format("{0}.log", ExecuteableName.ToUpper()));
             string versionPattern = @"([0-9]+.[0-9]+.[0-9]+-[0-9]+)";
             string result = "";
             if (File.Exists(logFile))
@@ -97,9 +98,8 @@ namespace RPCS3Updater.Libs
             }
             else
             {
-                Console.WriteLine("[{0}]: Error: Please put {0} inside {1}'s main folder.\nIf it's your first time please start {1}"
-                    + " then do so and then use the launcher.",
-                    Application.ProductName, Executeable);
+                Write("Error: Couldn't find the log file: {0}! Please make sure {1} is inside {2}'s main folder.", ExecuteableName + ".log",
+                    Application.ProductName, ExecuteableName);
             }
             return result;
         }
@@ -147,8 +147,10 @@ namespace RPCS3Updater.Libs
                     ArchiveFile file = new ArchiveFile(update);
                     file.Extract(thisDir);
 
+                    file.Dispose();
                     File.Delete(update);
                     Write("Update installed successfully!");
+                    Thread.Sleep(1300);
                     Launch();
                 }
             }

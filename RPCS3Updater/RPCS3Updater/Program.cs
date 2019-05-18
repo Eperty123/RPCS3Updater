@@ -2,6 +2,7 @@
 using static RPCS3Updater.Libs.Logger;
 using static RPCS3Updater.Libs.Globals;
 using static RPCS3Updater.Libs.UpdateFetcher;
+using System.Threading;
 
 namespace RPCS3Updater
 {
@@ -16,13 +17,14 @@ namespace RPCS3Updater
             Start();
             if (UpdateAvailable())
             {
-                Write("New version is up: {0}! Current is: {1}. Type 'U' to update or other to skip.",
+                Write("New version is up: {0}! Current is: {1}. Type 'U' to update or press any other key to skip.",
                     Build.Version, CurrentVersion);
                 Update(ConsoleKey.U);
             }
             else
             {
                 Write("No updates available. Starting {0}...", Executeable);
+                Thread.Sleep(1600);
                 Launch();
             }
             //Console.ReadKey();
